@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Image Practice</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <picture>
+      <source media="(min-width:650px)" srcset="images/hero.jpg" />
+      <source media="(min-width:465px)" srcset="images/profile.jpg" />
+      <img src="images/cat-1.jpg" alt="cat-1" style="width: auto;" />
+    </picture>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Images Practice</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-   <h1>Responsive Images Activity</h1>="clear:both"></div>
-<img src="max-width:100%"; margin: 5px; max-height: 500px;
-veritical-align: middle;" src="css/responsive-images-assets/hero.jpg">
-<br>="clear:both"></div>
-<img src="max-width:10%"; margin: 5px; max-height: 50px;
-horizontal-align: middle;" src="css/responsive-images-assets/profile.png">
-="clear:both"></div>
-<img src="max-width:100%"; margin: 5px; max-height: 500px;
-veritical-align: middle;" src="css/responsive-images-assets/cat-1.jpg">
-="clear:both"></div>
-<img style="max-width:100%"; margin: 5px; max-height: 500px;
-vertical-align: middle;" src="css/responsive-images-assets/cat-2.jpg">
-="clear:both"></div>
-<img style="max-width:100%"; margin: 5px; max-height: 500px;
-vertical-align: middle;" src="css/responsive-images-assets/cat-3.jpg">
-</div>
-</body>
-</html>
-</body>
+    <picture>
+      <source media="(min-width:650px)" srcset="images/cat-1.jpg" />
+      <source media="(min-width:465px)" srcset="iimages/cat-2.jpg" />
+      <img src="images/cat-3.jpg" alt="cat-3" style="width: auto;" />
+    </picture>
+  </body>
 </html>
